@@ -1,0 +1,102 @@
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background: url(/public/img/matrix.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  color: white;
+  background: black;
+  margin: 0;
+}
+
+section h2 {
+  margin: 0 0 0 30px;
+  padding: 10px;
+}
+
+section h3 {
+  margin: 0 0 0 30px;
+  padding: 10px;
+}
+
+div .right-text {
+  z-index: 1;
+  position: relative;
+  left: 70%;
+  top: 150px;
+}
+
+div .left-text {
+  z-index: 1;
+  position: relative;
+  left: 30%;
+  top: 150px;
+}
+
+div .right-text a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+}
+
+div .left-text a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.index tr td {
+  padding: 20px;
+  border-top: 1px solid black;
+}
+
+.index tr th {
+  padding: 20px;
+}
+
+.index td {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+}
+
+.center {
+  width: 400px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px 15px;
+  background: grey;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.bump {
+  margin: 0 0 0 30px;
+}

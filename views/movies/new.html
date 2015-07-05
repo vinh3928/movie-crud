@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/public/css/style.css" title="" type="text/css" />
+    <title></title>
+  </head>
+  <body>
+    <section>
+      <h2>Vinh's Movie Ratings</h2>
+      <h3>See if your opinions are correct!</h3>
+    </section>
+    <div class="bump">
+      <h2>Add A Movie</h2>
+      <form action="/movies" method="post">
+        <table>
+          <tr>
+            <td><label for="title">Title</label></td>
+            <td><input type="text" name="title" id="title" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="director">Director</label></td>
+            <td><input type="text" name="director" id="director" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="year">Year</label></td>
+            <td><input type="text" name="year" id="year" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="my-rating">My Rating</label></td>
+            <td><input type="number" min="0" max="5" name="myRating" id="my-rating" value="" /></td>
+          </tr>
+          <tr>
+            <td><label for="poster-url">Poster URL</label></td>
+            <td><input type="text" name="posterUrl" id="poster-url" value="" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button type="submit" value="Add Movie">Add Movie</button></td>
+          </tr>
+        </table>
+    </div>
+    </form>
+  </body>
+</html>
